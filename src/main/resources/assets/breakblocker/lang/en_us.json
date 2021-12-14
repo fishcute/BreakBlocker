@@ -1,0 +1,10 @@
+{
+	"key.breakblocker.toggleblock" : "Disable/Enable Block",
+	"key.breakblocker.togglemod" : "Toggle Mod",
+	"key.categories.breakblocker" : "BreakBlocker",
+	"message.breakblocker.add_block" : "Added %b to disabled blocks",
+	"message.breakblocker.remove_block" : "Removed %b from disabled blocks",
+	"message.breakblocker.cannot_add" : "Cannot disable %b",
+	"message.breakblocker.no_blocks_disabled" : "No blocks are disabled",
+	"message.breakblocker.cleared_list" : "Cleared disabled block list"
+}

@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fishcute.breakblocker.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+  ],
+  "client": [
+    "MinecraftClientMixin",
+    "InGameHudMixin",
+    "WorldRendererMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "MixinClientPlayerEntity"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "breakblocker",
+  "version": "${version}",
+
+  "name": "Break Blocker",
+  "description": "Prevents you from breaking certain blocks",
+  "authors": [
+    "fishcute"
+  ],
+  "contact": {
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/breakblocker/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "fishcute.breakblocker.BreakBlocker"
+    ]
+  },
+  "mixins": [
+    "breakblocker.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+  }
+}
