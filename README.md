@@ -7,4 +7,4 @@ Command system created with help from [clientcommands](https://github.com/Earthc
 
 Refer to the [wiki](https://github.com/fishcute/BreakBlocker/wiki) for usage.
 
-Refer to [this link](https://github.com/fishcute/BreakBlocker/wiki#examples) for some example usages.
+Check out [this link](https://github.com/fishcute/BreakBlocker/wiki#examples) for some example usages.
