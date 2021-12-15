@@ -10,7 +10,7 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class Config {
-    static File configFile = FabricLoader.getInstance().getConfigDir().resolve("blockblocker_config.json").toFile();
+    static File configFile = FabricLoader.getInstance().getConfigDir().resolve("breakblocker_config.json").toFile();
     public static Identifier TEXTURE;
     public static void attemptLoadConfig() {
         if (configFile.exists()) {
