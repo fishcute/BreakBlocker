@@ -110,14 +110,10 @@ public class BreakBlocker implements ClientModInitializer {
     }
     public static void playMiningAnimation(BlockHitResult blockHitResult) {
         if (CONFIG.shouldPlayMiningAnimation()&&!(MinecraftClient.getInstance().world.getBlockState(blockHitResult.getBlockPos()).isAir())) {
-            breakAnimation--;
-            if (breakAnimation<=0) {
-                MinecraftClient.getInstance().particleManager.addBlockBreakingParticles(
-                        blockHitResult.getBlockPos(),
-                        blockHitResult.getSide());
-                MinecraftClient.getInstance().player.swingHand(Hand.MAIN_HAND);
-                breakAnimation = 0;
-            }
+            MinecraftClient.getInstance().particleManager.addBlockBreakingParticles(
+                blockHitResult.getBlockPos(),
+                blockHitResult.getSide());
+            MinecraftClient.getInstance().player.swingHand(Hand.MAIN_HAND);
         }
     }
     static void toggleMod() {
