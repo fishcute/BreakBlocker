@@ -18,6 +18,7 @@ public class MinecraftClientMixin {
     protected int attackCooldown;
     @Inject(method = "handleBlockBreaking", cancellable = true, at = @At("HEAD"))
     public void handleBlockBreaking(boolean bl, CallbackInfo info) {
+        //This can probably be redone
         info.cancel();
         if (!BreakBlocker.disabledBlock()) {
             if (!bl) {
