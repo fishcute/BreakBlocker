@@ -42,6 +42,7 @@ import java.util.function.Predicate;
 @Environment(EnvType.CLIENT)
 public class BreakBlocker implements ClientModInitializer {
     public static ArrayList<String> blockedList = new ArrayList<>();
+    public static ArrayList<String> entityBlockedList = new ArrayList<>();
     static final ArrayList<String> bannedBlocks = new ArrayList<>(
             Arrays.asList(
                     "water",
